@@ -1,0 +1,21 @@
+ lista  constante =  documento . createElement ( 'ul' ) ;
+const  info  =  documento . createElement ( 'p' ) ;
+const  html  =  documento . querySelector ( 'html' ) ;
+
+info . textContent  =  'A continuación se muestra una lista dinámica. Haga clic en cualquier lugar fuera de la lista para agregar un nuevo elemento de lista. Haga clic en un elemento de la lista existente para cambiar su texto por otro. ' ;
+
+documento . cuerpo . appendChild ( información ) ;
+documento . cuerpo . appendChild ( lista ) ;
+
+html . onclick  =  function ( )  {
+  const  listItem  =  documento . createElement ( 'li' ) ;
+  const  listContent  =  prompt ( '¿Qué contenido desea que tenga el elemento de la lista?' ) ;
+  listItem . textContent  =  listContent ;
+  lista . appendChild ( listItem ) ;
+
+  listItem . onclick  =  function ( e )  {
+    e . stopPropagation ( ) ;
+    const  listContent  =  prompt ( 'Ingrese contenido nuevo para su elemento de lista' ) ;
+    esto . textContent  =  listContent ;
+  }
+}
