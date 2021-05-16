@@ -1,0 +1,21 @@
+<! DOCTYPE html >
+< html  lang = " en-US " >
+  < cabeza >
+    < meta  charset = " utf-8 " >
+    < título > Metaejemplos </ título >
+    
+    < meta  name = " author " content = " Chris Mills " >
+    < meta  name = " description " content = " Esta es una página de ejemplo para demostrar el uso de metadatos en páginas web. " >
+
+    < meta  property = " og: image " content = " https://developer.cdn.mozilla.net/static/img/opengraph-logo.dc4e08e2f6af.png " >
+    < meta  property = " og: description " content = " Esta es una página de ejemplo para demostrar el uso de metadatos en páginas web. " >
+    < meta  property = " og: title " content = " Metadatos; HTML & lt; head & gt ;, en MDN " >
+
+    < link  rel = " Icono de acceso directo " href = " favicon.ico " type = " image / x-icon " >
+  </ cabeza >
+  < cuerpo >
+    < h1 > Metaejemplos </ h1 >
+
+    < p > Ejemplo de japonés: ご 飯 が 熱 い。</ p >
+  </ cuerpo >
+</ html >
